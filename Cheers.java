@@ -15,7 +15,7 @@ public class Cheers {
                 if(An.indexOf(Letter)!=-1){
                         System.out.println("Give me an " + Letter + ": " + Letter + "!" );
                 } else{
-                        System.out.println("Give me a " + Letter + ": " + Letter + "!" );
+                        System.out.println("Give me a  " + Letter + ": " + Letter + "!" );
                 }
             }
             System.out.println("What does that spell?");
@@ -23,5 +23,5 @@ public class Cheers {
                 System.out.println(Word + "!!!");
                 Times--;
             }
+                }
         }
-}
