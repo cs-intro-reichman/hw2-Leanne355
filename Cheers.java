@@ -15,7 +15,8 @@ public class Cheers {
                 if(LowerCase.indexOf(Letter)!=-1){
                         Letter= (char)(Letter - 32);
                         NewWord = NewWord + Character.toString(Letter);
-                }
+                } else { 
+                        NewWord = NewWord + Character.toString(Letter); }
                 index++;
                 if(An.indexOf(Letter)!=-1){
                         System.out.println("Give me an " + Letter + ": " + Letter + "!" );
